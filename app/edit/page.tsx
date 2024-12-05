@@ -4,7 +4,7 @@ import { Focus, Bird } from 'lucide-react';
 import Card from "@/app/components/Card"
 
 
-export default () => {
+const EditPage = () => {
   const handleClick = () => {
     console.log("hello")
   }
@@ -41,3 +41,5 @@ export default () => {
     </>
   )
 }
+
+export default EditPage

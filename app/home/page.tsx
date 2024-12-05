@@ -4,7 +4,7 @@ import Image from "next/image";
 import { ScanEye, X } from 'lucide-react';
 
 
-export default () => {
+const HomePage = () => {
   const handleClick = () => {
     console.log("hello")
   }
@@ -65,3 +65,5 @@ export default () => {
     </>
   )
 }
+
+export default HomePage
