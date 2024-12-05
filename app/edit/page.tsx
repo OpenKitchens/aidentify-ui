@@ -24,8 +24,8 @@ const EditPage = () => {
           <div className="mt-8">
             <h1 className="text-2xl font-bold text-white mx-2">action</h1>
 
-            <div className="flex mt-2">
-              <button onClick={handleClick} className="bg-white/20 hover:bg-white/40 text-white px-7 py-2 rounded-lg font-bold flex ease-in">
+            <div className="flex gap-1 mt-2">
+              <button onClick={handleClick} className="bg-white/20 hover:bg-white/40 text-white px-7 py-2 rounded-lg font-bold flex ease-in ">
                 <Focus className="my-auto mr-2" />Camera
               </button>
 
