@@ -25,11 +25,11 @@ const EditPage = () => {
             <h1 className="text-2xl font-bold text-white mx-2">action</h1>
 
             <div className="flex mt-2">
-              <button onClick={handleClick} className="bg-white/20 hover:bg-white/40 text-white px-9 py-2 rounded-lg font-bold flex ease-in mx-1">
+              <button onClick={handleClick} className="bg-white/20 hover:bg-white/40 text-white px-7 py-2 rounded-lg font-bold flex ease-in mx-1">
                 <Focus className="my-auto mr-2" />Camera
               </button>
 
-              <button onClick={handleClick} className="bg-white/20 hover:bg-white/40 text-white px-8 py-2 rounded-lg font-bold flex ease-in mx-1">
+              <button onClick={handleClick} className="bg-white/20 hover:bg-white/40 text-white px-7 py-2 rounded-lg font-bold flex ease-in mx-1">
                 <Bird className="my-auto mr-2" />アンケート
               </button>
             </div>
