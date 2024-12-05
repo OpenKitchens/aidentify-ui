@@ -1,0 +1,29 @@
+<svg width="965" height="700" viewBox="0 0 965 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_275_17)">
+<rect width="965" height="700" fill="white"/>
+<rect x="-71" y="-25" width="421" height="398" fill="#29E4FF"/>
+<rect x="634" y="302" width="421" height="398" fill="#29E4FF"/>
+<rect x="372" y="25.2039" width="320" height="398" transform="rotate(-16 372 25.2039)" fill="#AA7FFF"/>
+<rect x="674.266" y="155" width="363" height="179" transform="rotate(13 674.266 155)" fill="#7129FF"/>
+<rect x="287.607" y="253.062" width="473.264" height="267.931" rx="133.965" transform="rotate(36 287.607 253.062)" fill="#9819FF"/>
+<rect x="190" y="-97" width="284" height="316" fill="#FFE6B2"/>
+<rect x="726" y="-44" width="284" height="316" fill="#FFE6B2"/>
+<rect x="279" y="57" width="155" height="316" fill="#FFE6B2"/>
+<rect x="-270" y="432.69" width="348" height="426" transform="rotate(-40 -270 432.69)" fill="#FFE6B2"/>
+<rect x="151" y="527.69" width="348" height="426" transform="rotate(-40 151 527.69)" fill="#FFE6B2"/>
+<g filter="url(#filter0_b_275_17)">
+<rect width="965" height="700" fill="black" fill-opacity="0.13"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_b_275_17" x="-200" y="-200" width="1365" height="1100" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="100"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_275_17"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_275_17" result="shape"/>
+</filter>
+<clipPath id="clip0_275_17">
+<rect width="965" height="700" fill="white"/>
+</clipPath>
+</defs>
+</svg>
