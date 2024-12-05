@@ -8,7 +8,7 @@ interface Props {
   image: string;
 }
 
-export default function ({title, subtitle, model, bg, image}: Props) {
+const Card = ({title, subtitle, model, bg, image}: Props) => {
 
   return (
     <div className="w-40 h-40 md:w-44 md:h-44 rounded-xl">
@@ -38,3 +38,5 @@ export default function ({title, subtitle, model, bg, image}: Props) {
     </div>
   )
 }
+
+export default Card

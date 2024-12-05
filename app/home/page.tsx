@@ -1,10 +1,10 @@
 'use client';
 
 import Image from "next/image";
-import { ScanEye, X, ChevronLeft } from 'lucide-react';
+import { ScanEye, X } from 'lucide-react';
 
 
-export default function () {
+export default () => {
   const handleClick = () => {
     console.log("hello")
   }

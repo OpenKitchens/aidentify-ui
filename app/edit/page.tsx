@@ -1,16 +1,11 @@
 'use client';
 
-import Image from "next/image";
 import { Focus, Bird } from 'lucide-react';
 import Card from "@/app/components/Card"
 
 
-export default function () {
+export default () => {
   const handleClick = () => {
-    console.log("hello")
-  }
-
-  const close = () => {
     console.log("hello")
   }
 
