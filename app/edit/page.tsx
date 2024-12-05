@@ -33,7 +33,7 @@ const EditPage = () => {
       ):
       changeScreen == "secure" ? (
         <>
-          <Upload handleChange={change} title="Secure Face" subtitle="顔が写っているところも消す" model="slow model" bg="/images/bg-secure.svg" image="/images/secure.png" />
+          <Upload handleChange={change} title="Secure" subtitle="顔が写っているところも消す" model="slow model" bg="/images/bg-secure.svg" image="/images/secure.png" />
         </>
       ) :
         <AnimatePresence>
@@ -54,7 +54,7 @@ const EditPage = () => {
                   <Card title="AI Paint" subtitle="個人情報をAIが自然な形で塗りつぶす" model="slow model" bg="/images/bg-aipaint.svg" image="/images/aipaint.svg" />
                   </motion.button>
                   <motion.button whileTap={{ scale: 2 }} onClick={() => change("secure")}>
-                  <Card title="Secure" subtitle="顔が写っているところも消す" model="slow model" bg="/images/bg-secure.svg" image="/images/secure.png" />
+                  <Card title="Secure Face" subtitle="顔が写っているところも消す" model="slow model" bg="/images/bg-secure.svg" image="/images/secure.png" />
                   </motion.button>
                 </div>
 
@@ -62,7 +62,7 @@ const EditPage = () => {
                   <h1 className="text-2xl font-bold text-white mx-2">action</h1>
 
                   <div className="flex gap-2 mt-1">
-                    <motion.button whileTap={{ scale: 1.5 }} onClick={handleClick} className="bg-white/20 hover:bg-white/40 text-white px-8 py-2 rounded-lg font-bold flex ease-in">
+                    <motion.button whileTap={{ scale: 1.5 }} onClick={handleClick} className="bg-white/20 hover:bg-white/40 text-white px-7 py-2 rounded-lg font-bold flex ease-in">
                       <Focus className="my-auto mr-2" />Camera
                     </motion.button>
 
